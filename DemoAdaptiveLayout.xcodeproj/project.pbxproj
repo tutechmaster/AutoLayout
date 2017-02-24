@@ -30,7 +30,6 @@
 		CB8B146A1E5EEB0F003139B7 /* BasicLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8B14681E5EEB0F003139B7 /* BasicLayout.swift */; };
 		CB8B146B1E5EEB0F003139B7 /* BasicLayout.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB8B14691E5EEB0F003139B7 /* BasicLayout.xib */; };
 		CB8B146E1E5EEB6F003139B7 /* 820283.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB8B146C1E5EEB6F003139B7 /* 820283.jpg */; };
-		CB8B146F1E5EEB6F003139B7 /* chu-viet-tay-chuc-tet-cua-Ngoc-Trinh1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB8B146D1E5EEB6F003139B7 /* chu-viet-tay-chuc-tet-cua-Ngoc-Trinh1.jpg */; };
 		CBEDC3691E5E918B00002BC2 /* UIScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEDC3671E5E918B00002BC2 /* UIScrollView.swift */; };
 		CBEDC36A1E5E918B00002BC2 /* UIScrollView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBEDC3681E5E918B00002BC2 /* UIScrollView.xib */; };
 		CBEDC36E1E5E9EB300002BC2 /* bottom_1376_167.png in Resources */ = {isa = PBXBuildFile; fileRef = CBEDC36B1E5E9EB300002BC2 /* bottom_1376_167.png */; };
@@ -57,6 +56,9 @@
 		E27AA88F19EB828A005705EE /* MarginWithOther.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27AA88D19EB828A005705EE /* MarginWithOther.swift */; };
 		E27AA89019EB828A005705EE /* MarginWithOther.xib in Resources */ = {isa = PBXBuildFile; fileRef = E27AA88E19EB828A005705EE /* MarginWithOther.xib */; };
 		E2C79D5219ED115900763FF5 /* CenterX.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C79D5019ED115900763FF5 /* CenterX.swift */; };
+		E2E644901E5FE4E500892F71 /* ReadMe.md in Sources */ = {isa = PBXBuildFile; fileRef = E2E6448F1E5FE4E500892F71 /* ReadMe.md */; };
+		E2E644931E5FE67E00892F71 /* RawScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E644911E5FE67E00892F71 /* RawScrollView.swift */; };
+		E2E644941E5FE67E00892F71 /* RawScrollView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2E644921E5FE67E00892F71 /* RawScrollView.xib */; };
 		E2E863AD19EBDE8E00AE1DB8 /* UIViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E863AC19EBDE8E00AE1DB8 /* UIViewLayout.swift */; };
 		E2F2AA0219ED2A860001D7DC /* CenterAll.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F2AA0119ED2A860001D7DC /* CenterAll.swift */; };
 		E2F2AA0419ED2C6F0001D7DC /* EqualWidth.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F2AA0319ED2C6F0001D7DC /* EqualWidth.swift */; };
@@ -88,19 +90,18 @@
 		CB8B14681E5EEB0F003139B7 /* BasicLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicLayout.swift; sourceTree = "<group>"; };
 		CB8B14691E5EEB0F003139B7 /* BasicLayout.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BasicLayout.xib; sourceTree = "<group>"; };
 		CB8B146C1E5EEB6F003139B7 /* 820283.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 820283.jpg; sourceTree = "<group>"; };
-		CB8B146D1E5EEB6F003139B7 /* chu-viet-tay-chuc-tet-cua-Ngoc-Trinh1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "chu-viet-tay-chuc-tet-cua-Ngoc-Trinh1.jpg"; sourceTree = "<group>"; };
 		CBEDC3671E5E918B00002BC2 /* UIScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIScrollView.swift; sourceTree = "<group>"; };
 		CBEDC3681E5E918B00002BC2 /* UIScrollView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UIScrollView.xib; sourceTree = "<group>"; };
-		CBEDC36B1E5E9EB300002BC2 /* bottom_1376_167.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bottom_1376_167.png; sourceTree = "<group>"; };
-		CBEDC36C1E5E9EB300002BC2 /* mid_1376_577.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mid_1376_577.png; sourceTree = "<group>"; };
-		CBEDC36D1E5E9EB300002BC2 /* top_1376_111.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = top_1376_111.png; sourceTree = "<group>"; };
+		CBEDC36B1E5E9EB300002BC2 /* bottom_1376_167.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bottom_1376_167.png; path = ../bottom_1376_167.png; sourceTree = "<group>"; };
+		CBEDC36C1E5E9EB300002BC2 /* mid_1376_577.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mid_1376_577.png; path = ../mid_1376_577.png; sourceTree = "<group>"; };
+		CBEDC36D1E5E9EB300002BC2 /* top_1376_111.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = top_1376_111.png; path = ../top_1376_111.png; sourceTree = "<group>"; };
 		CBEDC3711E5EA1E800002BC2 /* SizeClasses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SizeClasses.swift; sourceTree = "<group>"; };
 		CBEDC3721E5EA1E800002BC2 /* SizeClasses.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SizeClasses.xib; sourceTree = "<group>"; };
 		E20FBDB81D86B6220082E572 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E20FBDB91D86B6220082E572 /* BootLogic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BootLogic.swift; sourceTree = "<group>"; };
 		E20FBDBA1D86B6220082E572 /* ConsoleScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsoleScreen.swift; sourceTree = "<group>"; };
 		E20FBDBB1D86B6220082E572 /* MainScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
-		E20FBDC01D86B7160082E572 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		E20FBDC01D86B7160082E572 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
 		E24CD06219EE1D08008A127F /* DemoOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoOptions.swift; sourceTree = "<group>"; };
 		E25BC64919ED3B6E00330923 /* FourSquares.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourSquares.swift; sourceTree = "<group>"; };
 		E25BC64B19ED59BD00330923 /* UpdateConstrainOnRotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateConstrainOnRotation.swift; sourceTree = "<group>"; };
@@ -117,6 +118,9 @@
 		E27AA88D19EB828A005705EE /* MarginWithOther.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarginWithOther.swift; sourceTree = "<group>"; };
 		E27AA88E19EB828A005705EE /* MarginWithOther.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MarginWithOther.xib; sourceTree = "<group>"; };
 		E2C79D5019ED115900763FF5 /* CenterX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CenterX.swift; sourceTree = "<group>"; };
+		E2E6448F1E5FE4E500892F71 /* ReadMe.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = ReadMe.md; sourceTree = "<group>"; };
+		E2E644911E5FE67E00892F71 /* RawScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RawScrollView.swift; sourceTree = "<group>"; };
+		E2E644921E5FE67E00892F71 /* RawScrollView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RawScrollView.xib; sourceTree = "<group>"; };
 		E2E863AC19EBDE8E00AE1DB8 /* UIViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewLayout.swift; sourceTree = "<group>"; };
 		E2F2AA0119ED2A860001D7DC /* CenterAll.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CenterAll.swift; sourceTree = "<group>"; };
 		E2F2AA0319ED2C6F0001D7DC /* EqualWidth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EqualWidth.swift; sourceTree = "<group>"; };
@@ -165,10 +169,7 @@
 		E27AA83A19EB7587005705EE = {
 			isa = PBXGroup;
 			children = (
-				E20FBDC01D86B7160082E572 /* Default-568h@2x.png */,
-				CBEDC36B1E5E9EB300002BC2 /* bottom_1376_167.png */,
-				CBEDC36C1E5E9EB300002BC2 /* mid_1376_577.png */,
-				CBEDC36D1E5E9EB300002BC2 /* top_1376_111.png */,
+				E2E6448F1E5FE4E500892F71 /* ReadMe.md */,
 				E27AA84519EB7587005705EE /* DemoAdaptiveLayout */,
 				E27AA84419EB7587005705EE /* Products */,
 			);
@@ -185,6 +186,7 @@
 		E27AA84519EB7587005705EE /* DemoAdaptiveLayout */ = {
 			isa = PBXGroup;
 			children = (
+				E2E6448E1E5FE32600892F71 /* image */,
 				E27AA86819EB75A6005705EE /* Core */,
 				E27AA88219EB7BB0005705EE /* Basic */,
 				E2AA52B319ECD94B00C14660 /* AutolayoutByProgramming */,
@@ -218,9 +220,6 @@
 		E27AA88219EB7BB0005705EE /* Basic */ = {
 			isa = PBXGroup;
 			children = (
-				E27AA88719EB7C12005705EE /* playboy.jpg */,
-				CB8B146C1E5EEB6F003139B7 /* 820283.jpg */,
-				CB8B146D1E5EEB6F003139B7 /* chu-viet-tay-chuc-tet-cua-Ngoc-Trinh1.jpg */,
 				CB8B14681E5EEB0F003139B7 /* BasicLayout.swift */,
 				CB8B14691E5EEB0F003139B7 /* BasicLayout.xib */,
 				E27AA88319EB7BD3005705EE /* CenterView.swift */,
@@ -233,6 +232,8 @@
 				CBEDC3681E5E918B00002BC2 /* UIScrollView.xib */,
 				CBEDC3711E5EA1E800002BC2 /* SizeClasses.swift */,
 				CBEDC3721E5EA1E800002BC2 /* SizeClasses.xib */,
+				E2E644911E5FE67E00892F71 /* RawScrollView.swift */,
+				E2E644921E5FE67E00892F71 /* RawScrollView.xib */,
 			);
 			name = Basic;
 			sourceTree = "<group>";
@@ -252,6 +253,19 @@
 				E24CD06219EE1D08008A127F /* DemoOptions.swift */,
 			);
 			name = AutolayoutByProgramming;
+			sourceTree = "<group>";
+		};
+		E2E6448E1E5FE32600892F71 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				CB8B146C1E5EEB6F003139B7 /* 820283.jpg */,
+				E27AA88719EB7C12005705EE /* playboy.jpg */,
+				E20FBDC01D86B7160082E572 /* Default-568h@2x.png */,
+				CBEDC36B1E5E9EB300002BC2 /* bottom_1376_167.png */,
+				CBEDC36C1E5E9EB300002BC2 /* mid_1376_577.png */,
+				CBEDC36D1E5E9EB300002BC2 /* top_1376_111.png */,
+			);
+			name = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -282,12 +296,12 @@
 			attributes = {
 				LastSwiftMigration = 0730;
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Techmaster Vietnam";
 				TargetAttributes = {
 					E27AA84219EB7587005705EE = {
 						CreatedOnToolsVersion = 6.1;
-						LastSwiftMigration = 0820;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -321,7 +335,6 @@
 				E27AA85019EB7587005705EE /* Images.xcassets in Resources */,
 				B12A67B01D87847B005CB6BD /* AlignCenter.xib in Resources */,
 				CB8B146E1E5EEB6F003139B7 /* 820283.jpg in Resources */,
-				CB8B146F1E5EEB6F003139B7 /* chu-viet-tay-chuc-tet-cua-Ngoc-Trinh1.jpg in Resources */,
 				B12A67C01D8785BA005CB6BD /* DistributionFill.xib in Resources */,
 				B12A67CC1D878943005CB6BD /* DistributionEqualCentering.xib in Resources */,
 				B12A67B41D8784E6005CB6BD /* AlignFirstLine.xib in Resources */,
@@ -337,6 +350,7 @@
 				CB8B146B1E5EEB0F003139B7 /* BasicLayout.xib in Resources */,
 				CBEDC36F1E5E9EB300002BC2 /* mid_1376_577.png in Resources */,
 				E20FBDC11D86B7160082E572 /* Default-568h@2x.png in Resources */,
+				E2E644941E5FE67E00892F71 /* RawScrollView.xib in Resources */,
 				B12A67BC1D87855E005CB6BD /* AlignTrailing.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -359,6 +373,7 @@
 				E2F2AA0219ED2A860001D7DC /* CenterAll.swift in Sources */,
 				E20FBDBC1D86B6220082E572 /* AppDelegate.swift in Sources */,
 				E2F2AA0419ED2C6F0001D7DC /* EqualWidth.swift in Sources */,
+				E2E644931E5FE67E00892F71 /* RawScrollView.swift in Sources */,
 				CBEDC3691E5E918B00002BC2 /* UIScrollView.swift in Sources */,
 				E27AA88F19EB828A005705EE /* MarginWithOther.swift in Sources */,
 				E20FBDBF1D86B6220082E572 /* MainScreen.swift in Sources */,
@@ -370,6 +385,7 @@
 				E25BC64E19ED727200330923 /* DemoIntrinsicContentSize.swift in Sources */,
 				E27AA88B19EB7E95005705EE /* CenterMarginView.swift in Sources */,
 				B12A67AB1D878423005CB6BD /* AxisVertical.swift in Sources */,
+				E2E644901E5FE4E500892F71 /* ReadMe.md in Sources */,
 				E25BC64C19ED59BD00330923 /* UpdateConstrainOnRotation.swift in Sources */,
 				B12A67CB1D878943005CB6BD /* DistributionEqualCentering.swift in Sources */,
 				E2F2AA0819ED35590001D7DC /* DemoMetrics.swift in Sources */,
@@ -398,8 +414,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -408,6 +426,7 @@
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -420,7 +439,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -443,8 +462,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -452,16 +473,18 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};

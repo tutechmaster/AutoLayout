@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RawScrollView" customModule="DemoAdaptiveLayout" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pbs-s6-6FD">
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="820283.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="5C8-sG-ZgB">
+                            <rect key="frame" x="0.0" y="0.0" width="189" height="161"/>
+                        </imageView>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="5C8-sG-ZgB" secondAttribute="trailing" id="EVg-uD-8ub"/>
+                        <constraint firstItem="5C8-sG-ZgB" firstAttribute="top" secondItem="pbs-s6-6FD" secondAttribute="top" id="Fuc-f5-651"/>
+                        <constraint firstAttribute="bottom" secondItem="5C8-sG-ZgB" secondAttribute="bottom" id="Jg8-fj-Zsa"/>
+                        <constraint firstItem="5C8-sG-ZgB" firstAttribute="centerY" secondItem="pbs-s6-6FD" secondAttribute="centerY" id="YYk-DI-CLX"/>
+                        <constraint firstItem="5C8-sG-ZgB" firstAttribute="centerX" secondItem="pbs-s6-6FD" secondAttribute="centerX" id="Ym1-SK-86M"/>
+                        <constraint firstItem="5C8-sG-ZgB" firstAttribute="leading" secondItem="pbs-s6-6FD" secondAttribute="leading" id="bpu-5E-qri"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="pbs-s6-6FD" secondAttribute="trailing" id="6PP-5K-yoX"/>
+                <constraint firstItem="pbs-s6-6FD" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="135" id="Oi2-3r-GNh"/>
+                <constraint firstItem="pbs-s6-6FD" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="SBr-aR-1Cz"/>
+                <constraint firstAttribute="bottom" secondItem="pbs-s6-6FD" secondAttribute="bottom" constant="371" id="gB7-zv-pf0"/>
+            </constraints>
+            <point key="canvasLocation" x="25.5" y="51.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="820283.jpg" width="480" height="320"/>
+    </resources>
+</document>

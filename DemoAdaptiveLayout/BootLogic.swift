@@ -57,8 +57,8 @@ class BootLogic: NSObject {
         
         let mainScreen = MainScreen(style: UITableViewStyle.grouped)
         mainScreen.menu = [basic, intermediate]
-        mainScreen.title = "CoreStore"
-        mainScreen.about = "Demo CoreStore written by Cuong"
+        mainScreen.title = "Autolayout"
+        mainScreen.about = "Demo autolayout written by Cuong"
         
         let nav = UINavigationController(rootViewController: mainScreen)
         

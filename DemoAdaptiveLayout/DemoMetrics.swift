@@ -22,7 +22,7 @@ class DemoMetrics: UIViewController {
         let views = ["view": self.view, "blueRect": blueRect]
         //Demo cách truyền metric vào constraint
         let metric = ["Vspace": 10, "Hspace": 80]
-        
+        //TODO: Tú em fix crash ở đây
         self.view.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "V:|-Vspace-[blueRect]-Vspace-|", options: [], metrics: metric, views: views))
         
 
