@@ -31,7 +31,7 @@ class DemoOptions: UIViewController {
         self.view.addSubview(redRect)
         redRect.translatesAutoresizingMaskIntoConstraints = false
         
-        let views = ["view": self.view, "blueRect": blueRect]
+        let views: [String:UIView] = ["view": self.view, "blueRect": blueRect]
         //Vertical space: cách top 40 point, cao 100 point
         self.view.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "V:|-40.0-[blueRect(100)]", options: [], metrics: nil, views: views))
         self.view.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "H:[blueRect(100)]", options: [], metrics: nil, views: views))

@@ -25,7 +25,7 @@ class CenterX: UIViewController {
         //http://commandshift.co.uk/blog/2013/01/31/visual-format-language-for-autolayout/
         
         //2. Tạo một dictionary gồm các phần tử sẽ liên hệ với nhau qua các ràng buộc (constraint)
-        let views = ["view": self.view, "blueRect": blueRect]
+        let views: [String:UIView] = ["view": self.view, "blueRect": blueRect]
         
         //3. Khởi tạo đối tượng NSLayoutConstraint
         //VisualFormat là một dạng cú pháp đơn giản để mô tả ràng buộc theo AsciiArt. Nó chỉ có 2 loại

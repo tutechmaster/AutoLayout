@@ -26,7 +26,7 @@ class EqualWidth: UIViewController {
         self.view.addSubview(orangeRect)
         orangeRect.translatesAutoresizingMaskIntoConstraints = false
         
-        let views = ["view": self.view, "blueRect": blueRect]
+        let views: [String:UIView] = ["view": self.view, "blueRect": blueRect]
         //Vertical space: cách top 40 point, cao 100 point
         self.view.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "V:|-40.0-[blueRect(100)]", options: [], metrics: nil, views: views))
         //Ngang 100 point

@@ -45,7 +45,7 @@ class UpdateConstrainOnRotation: UIViewController {
     }
     
     func portraitConstraint() {
-        let views = ["view": self.view, "blueRect": blueRect!, "orangeRect": orangeRect!]
+        let views: [String:UIView] = ["view": self.view, "blueRect": blueRect!, "orangeRect": orangeRect!]
         //Vertical space:
         c1 = NSLayoutConstraint.constraints(withVisualFormat: "V:|-40.0-[blueRect]-10.0-[orangeRect]-40.0-|", options: [], metrics: nil, views: views)
         self.view.addConstraints(c1!)
@@ -102,7 +102,7 @@ class UpdateConstrainOnRotation: UIViewController {
     }
     
     func landscapeConstraint() {
-        let views = ["view": self.view, "blueRect": blueRect!, "orangeRect": orangeRect!]
+        let views: [String:UIView] = ["view": self.view, "blueRect": blueRect!, "orangeRect": orangeRect!]
         //Horizonal space:
         c_1 = NSLayoutConstraint.constraints(withVisualFormat: "H:|-40.0-[blueRect]-10.0-[orangeRect]-40.0-|", options: [], metrics: nil, views: views)
         self.view.addConstraints(c_1!)

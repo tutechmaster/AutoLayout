@@ -24,7 +24,7 @@ class DemoIntrinsicContentSize: UIViewController {
         
         self.view.addSubview(label)
         
-        let views = ["view": self.view, "label": label]
+        let views: [String:UIView] = ["view": self.view, "label": label]
         self.view.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "V:|-10.0-[label]", options: [], metrics: nil, views: views))
 
         self.view.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "H:|-10.0-[label]", options: [], metrics: nil, views: views))

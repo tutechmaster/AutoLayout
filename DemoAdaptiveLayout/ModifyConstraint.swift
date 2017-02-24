@@ -29,7 +29,7 @@ class ModifyConstraint: UIViewController {
         
         self.view.addSubview(label)
         
-        let views = ["view": self.view, "label": label]
+        let views: [String:UIView] = ["view": self.view, "label": label]
         
         cs1 = NSLayoutConstraint.constraints(withVisualFormat: "V:|-10.0-[label]", options: [], metrics: nil, views: views)
         self.view.addConstraints(cs1!)

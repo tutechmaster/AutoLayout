@@ -14,7 +14,7 @@ class CenterAll: UIViewController {
         self.view.addSubview(blueRect)
         blueRect.translatesAutoresizingMaskIntoConstraints = false
         
-        let views = ["view": self.view, "blueRect": blueRect]
+        let views: [String:UIView] = ["view": self.view, "blueRect": blueRect]
 
         //Căn giữa trục X - trục hoành
         self.view.addConstraint(NSLayoutConstraint(item: blueRect, attribute: NSLayoutAttribute.centerX, relatedBy: NSLayoutRelation.equal, toItem: self.view, attribute: NSLayoutAttribute.centerX, multiplier: 1, constant: 0))

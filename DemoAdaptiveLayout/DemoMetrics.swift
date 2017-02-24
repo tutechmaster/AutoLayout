@@ -19,10 +19,11 @@ class DemoMetrics: UIViewController {
         self.view.addSubview(blueRect)
         blueRect.translatesAutoresizingMaskIntoConstraints = false
         
-        let views = ["view": self.view, "blueRect": blueRect]
+        let views: [String:UIView] = ["view": self.view, "blueRect": blueRect]  //định nghĩa kiểu views rõ ràng là ok
         //Demo cách truyền metric vào constraint
         let metric = ["Vspace": 10, "Hspace": 80]
-        //TODO: Tú em fix crash ở đây
+        //TODO: Tú em fix crash ở đây. Anh đã sửa được rồi !
+        //http://stackoverflow.com/questions/39520534/autolayout-issue-xcode-8-swiftvalue-nsli-superitem
         self.view.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "V:|-Vspace-[blueRect]-Vspace-|", options: [], metrics: metric, views: views))
         
 
