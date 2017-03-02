@@ -35,11 +35,13 @@ class BootLogic: NSObject {
     var menu : [MenuSection]!
     class func boot(_ window:UIWindow){
         let basic = MenuSection(section: "Autolayout by UI", menus:[
-            Menu(title: "Center a view", viewClass: "CenterView"),
-            Menu(title: "Margin", viewClass: "CenterMarginView"),
-            Menu(title: "Margin with other objects", viewClass: "MarginWithOther"),
-            Menu(title: "UIScrollView", viewClass: "UIScrollView"),
-            Menu(title: "SizeClasses", viewClass: "SizeClasses")
+            Menu(title: "Top, Left, Bottom, Right between 2 objects", viewClass: "TopLeftBottomRight"),
+            Menu(title: "Center Horizontal Vertical BaseLine Right between 2 objects", viewClass: "CenterHVBaseLine"),
+            Menu(title: "Relation, Priority", viewClass: "RelationPriority"),
+            Menu(title: "Margin", viewClass: "CenterMarginView")
+//            ,
+//            Menu(title: "UIScrollView", viewClass: "UIScrollView"),
+//            Menu(title: "SizeClasses", viewClass: "SizeClasses")
             ])
 
         let intermediate = MenuSection(section: "Autolayout programmatically", menus:[
@@ -56,7 +58,7 @@ class BootLogic: NSObject {
             ])
         
         let mainScreen = MainScreen(style: UITableViewStyle.grouped)
-        mainScreen.menu = [basic, intermediate]
+        mainScreen.menu = [basic]
         mainScreen.title = "Autolayout"
         mainScreen.about = "Demo autolayout written by Cuong"
         

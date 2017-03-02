@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="Relation" customModule="DemoAdaptiveLayout" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chạy trên iPhone 7 và 4s để thấy sự khác biệt" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OLa-EM-Jue">
+                    <rect key="frame" x="13" y="64" width="349" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="Rlw-2v-KBf"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Relation" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lub-3M-wGX">
+                    <rect key="frame" x="60" y="143" width="273" height="220"/>
+                    <color key="backgroundColor" red="0.97254901959999995" green="0.2156862745" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="220" id="Izb-Ew-uhU"/>
+                        <constraint firstAttribute="width" relation="lessThanOrEqual" constant="273" id="WpG-0L-HK0"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Priority" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ziC-07-Kjx">
+                    <rect key="frame" x="60" y="413" width="273" height="246"/>
+                    <color key="backgroundColor" red="0.1532579086803052" green="1" blue="0.211348259756312" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="273" id="z4x-Qb-i8p"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Lub-3M-wGX" firstAttribute="top" secondItem="OLa-EM-Jue" secondAttribute="bottom" constant="29" id="9Lj-pu-5tg"/>
+                <constraint firstItem="OLa-EM-Jue" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="64" id="Fzy-Or-LXt"/>
+                <constraint firstItem="OLa-EM-Jue" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="13" id="MfL-Lf-BWO"/>
+                <constraint firstItem="ziC-07-Kjx" firstAttribute="top" secondItem="Lub-3M-wGX" secondAttribute="bottom" constant="50" id="gi9-Aq-dxB"/>
+                <constraint firstItem="ziC-07-Kjx" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="60" id="h7M-qq-naJ"/>
+                <constraint firstAttribute="bottom" secondItem="ziC-07-Kjx" secondAttribute="bottom" constant="8" id="i0X-GK-sJM"/>
+                <constraint firstAttribute="trailing" secondItem="ziC-07-Kjx" secondAttribute="trailing" priority="750" constant="42" id="kK2-Eg-p2e"/>
+                <constraint firstAttribute="trailing" secondItem="OLa-EM-Jue" secondAttribute="trailing" constant="13" id="oFc-GG-MFE"/>
+                <constraint firstAttribute="trailing" secondItem="Lub-3M-wGX" secondAttribute="trailing" constant="42" id="q2F-dA-MO2"/>
+                <constraint firstItem="OLa-EM-Jue" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="uMB-AV-zbu"/>
+                <constraint firstItem="Lub-3M-wGX" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="60" id="uqe-qV-CQG"/>
+            </constraints>
+            <point key="canvasLocation" x="-349" y="63"/>
+        </view>
+    </objects>
+</document>
