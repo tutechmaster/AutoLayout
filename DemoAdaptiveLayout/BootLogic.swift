@@ -38,7 +38,8 @@ class BootLogic: NSObject {
             Menu(title: "Top, Left, Bottom, Right between 2 objects", viewClass: "TopLeftBottomRight"),
             Menu(title: "Center Horizontal Vertical BaseLine Right between 2 objects", viewClass: "CenterHVBaseLine"),
             Menu(title: "Relation, Priority", viewClass: "RelationPriority"),
-            Menu(title: "Margin", viewClass: "CenterMarginView")
+            Menu(title: "Margin", viewClass: "CenterMarginView"),
+             Menu(title: "Challenge1", viewClass: "Challenge1")
 //            ,
 //            Menu(title: "UIScrollView", viewClass: "UIScrollView"),
 //            Menu(title: "SizeClasses", viewClass: "SizeClasses")
